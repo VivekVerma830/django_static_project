@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+
+   
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <body>
+    {% block content %}
+    <!-- header end -->
+    <!-- main section start -->
+    <main class="hero">
+        <div class="content">
+            <h1  style="color: aqua;">All in one Cybrom tool need to <br>grow your Career</h1>
+            <p>Tempor rebum no at dolore lorem clita rebum rebum ipsum rebum stet dolor <br>sed justo kasd. Ut dolor sed
+                magna dolor sea diam. Sit diam sit justo amet ipsum <br>vero ipsum clita lorem</p>
+
+            <button>Contact Us</button>
+            <button>free Quetes </button>
+        </div>
+        <div class="hero-img">
+           
+            <!-- <img  src="{% static 'image/hero.png' %}" alt="image be loaded"> -->
+
+        </div>
+     <!-- main section end -->
+     <main class="main-about">
+     
+        <div class="content-about">
+            <H3> About Us </H3>
+            <h1>The best Career solution with 15 years <br> of experience <br> ____ </h1>
+            <p>Tempor erat elitr rebum at clita. Diam <br> dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos
+                labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem <br>sit. Sanctus clita duo justo et
+                tempor eirmod magna dolore erat amet</p>
+        </div>
+        <div class="hero2-img">
+            
+            <img  src="{% static 'image/hero2.jpg' %}" alt="image car be loaded">
+        </div>
+    
+    </main>
+    <div class="ready">
+        <h2 style="color: aqua;" >Ready to get started</h2>
+        <h3>Diam elitr est dolore at sanctus nonumy.</h3>
+        <input type="text" placeholder="Enter your mail" required autofocus>
+    </div>
+
+{% endblock %}
+</body>

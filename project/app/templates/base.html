@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="{% static 'css/style.css' %}"> -->
+</head>
+<body>
+   
+        <header class="navi",style="background-color: blue;">
+
+            <div class="logo">
+                <h1>Cybrom</h1>
+            </div>
+            <nav class="navbar">
+                <a href="{% url 'home' %}">Home</a>
+                <a href="{% url 'about' %}">About</a>
+                <a href="{% url 'contact' %}">Contact</a>
+                <a href="{% url 'services' %}">services</a>
+                <a href="{% url 'project' %}">Project</a>
+            </nav>
+        </header>
+        
+    {% block content %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <h1> middle page </h1>
+    {% endblock %}
+
+   
+        
+    <footer style="text-align: center;
+        padding: 3px;
+        background-color: DarkSalmon;
+        color: white;">
+            <p>Author: Hege Refsnes<br>
+            <a href="mailto:hege@example.com">hege@example.com</a></p>
+          
+    </footer>
+    
+</body>
+</html>

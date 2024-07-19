@@ -1,0 +1,104 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+    background-color: rgb(10, 139, 224);
+    height: 12vh;
+    margin: auto;
+    padding-left:35px;
+    padding-top: 30px;
+   
+}
+.logo{
+    color: aliceblue;
+    font-size: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 12px;
+    font-size: 19px;
+}
+    /* header css end */
+    /* main css start */
+    .hero{
+        display: flex;
+        width: 84.3%;
+        background: rgb(10, 139, 224);
+        margin: auto;
+        height: 90vh;
+    }
+    .content{
+        padding-top: 100px;
+        padding-left: 35px;
+        color: aliceblue;
+    }
+    .content h1{
+        font-size: 45px;
+        padding-bottom: 20px;
+        font-weight: 900;
+    }
+    .content p{
+        padding-top: 10px;
+        padding-bottom: 35px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .content button{
+        padding: 20px 30px;
+        border-radius: 22px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .hero-img{
+        padding-top: 100px;
+        padding-left: 45px;
+        
+        
+    }
+     /* main section end */
+     .main-about{
+        display: flex;
+        width: 82%;
+        background:#ffff;
+        height: 90vh;
+        margin: auto;
+        justify-content: space-between;
+     }
+     .content-about h3{
+        font-size: 35;
+        padding-bottom: 10px;
+        font-weight: 900;
+        color: blue;
+        
+     }
+     .content-about h1{
+        font-size: 30px;
+        padding-bottom: 35px;
+        font-weight: 900;
+     }
+     .content-about p{
+        padding-bottom: 20px;
+        font-size: 17px;
+        line-height: 22px;
+     }
+     .hero2-img {
+        padding-top: 100px;
+        padding-left: 45px;
+
+     }
+     .ready{
+        height: 25vh;
+        background: rgb(10, 139, 224);
+        width: 84.3%;
+        margin: auto;
+        
+       }
+
